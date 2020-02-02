@@ -1,0 +1,137 @@
+\documentclass{article}
+\usepackage[ utf8 ]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts}
+\usepackage[english] {babel}
+\usepackage{chemfig}
+\usepackage[version=4]{mhchem}
+\usepackage{circuitikz}
+
+%Reference: https://www.vedantu.com/neet/neet-sample-question-paper-1
+%-------------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center}
+\huge
+\textbf{NEET EXAM}\\
+\Large \today
+\vspace{1 cm}
+\end{center}
+
+\textbf{\underline{\large Max. Marks: 180} \hspace{10 cm} \underline{\large Duration: 3 Hrs}}
+\\ \\ \\
+\textbf{This paper consists of Chemistry, Physics and Biology \vspace{.5 cm}\\
+Chemistry 
+\begin{itemize}
+	\item Multiple Choice Questions with one correct answer Question No. 1 to 45. A correct answer carries 1 Mark. A wrong answer carries a penalty of 0.25 marks.
+\end{itemize}
+Physics
+\begin{itemize}
+	\item Multiple Choice Questions with one correct answer Question No. 46 to 90. A correct answer carries 1 Mark. A wrong answer carries a penalty of 0.25 marks.
+\end{itemize}
+Biology
+\begin{itemize}
+	\item Multiple Choice Questions with one correct answer Question No. 91 to 180. A correct answer carries 1 Mark. A wrong answer carries a penalty of 0.25 marks.
+\end{itemize}
+}
+\vspace{0.6 cm}
+\begin{center}
+\textbf{\underline{Useful Data}}\\
+\end{center}
+\texttt{Atomic Wt.:}\\
+N = 14; O = 16; H = 1; S = 32; Cl = 35.5; Mn = 55; Na = 23; C = 12; Ag = 108; K =39; Fe = 56; \\Pb = 207\\ \\
+\texttt{Physical constants:}\\
+$h = 6.626 \times 10^{-34}$ J.sec,  $N_A = 6.022 \times 10^{23} mol^{-1}$, $C = 2.996 \times 10^9 ms^{-1}$, $m_e = 9.1 \times 10^{-31}Kg$\\
+
+\vspace{1 cm}
+\begin{center}
+ \textbf{\large \underline{Chemistry}}\\
+\end{center}
+
+\begin{enumerate}
+ \item \large When a metal is burnt, its weight is increased by 24 percent. The Equivalent weight of metal will be\\
+
+		a.) 2 \hspace{2.5cm} b.) 24 \hspace{2.5cm} c.) 33.3 \hspace{2.5cm} d.) 76\\
+
+\item \large In which one of the following, the number of protons is greater than number of neutrons but number of protons is less than the number of electrons?\\
+
+		a.) $D_2O^{(+)}$ \hspace{2.2cm} b.) $SO_2$ \hspace{2.2cm} c.) $S^{2-}$ \hspace{2.2cm} d.) $OH^{-}$\\
+
+\item \large The correct order of decreasing dipole moment of \\
+		(I) toluene \hspace{6.1cm} (II) m-dichlorobenzene\\
+		(III) o-dichlorobenzene \hspace{3.9cm} (IV) p-dichlorobenzene\\
+
+		a.) $IV<II<I<III$ \hspace{1cm} b.) $IV<I<II<III$ \hspace{1cm} c.) $I<IV<II<III$
+\hspace{1cm} d.) $IV<I<III<II$\\
+
+\item \large The latent heats of fusion in $Jg^{-1}$ of five substances A (mol. mass=18) B(mol. mass=20), C(mol. mass=30), D(mol. mass=60) and E(mol. mass=30) are respectively 80, 45, 90, 45, 45. Which of the following pairs has same value of "$\Delta H_{fusion}$"?\\
+
+		a.) A, C \hspace{2.5cm} b.) B, E \hspace{2.5cm} c.) D, E \hspace{2.5cm} d.) C, D\\
+
+\item \large Which of the following is not formed as an intermediate in the Reimer-Teimann reaction between phenol and alkaline chloroform?\\
+
+		a.)  \chemfig{*6(-=-(-CCl_2)-(=O)-=)}  b.) \chemfig{*6(--=-(=O)-=)} \qquad c.) \chemfig{*6(-=(-CHCl_2)-=(-OH)-=)}  d.) $:CCl^{2-}_2$\\
+
+\item \large Which of the following statement(s) is/are true?\\
+	
+		a.) At room temperature, formyl chloride is present in the form of CO and HCl\\
+		b.) Acetamide behaves as a weak base as well as a weak acid\\
+		c.) \ce{CH_3CONH_2 ->[LiAlH_4] CH_3CH_2NH_2}\\
+		d.) All the above are true
+%---------------------------------------------------------------------------------------------------------------
+\end{enumerate}
+
+\newpage
+\begin{center}
+ \textbf{\large \underline{Physics}}\\
+\end{center}
+
+\begin{enumerate}
+ \item \large In the circuit shown in the figure, reading of voltmeter is $V_1$ when only $S_1$ is closed, reading of voltmeter is $V_2$ when only $S_2$ is closed and reading of voltmeter is $V_3$ when both $S_1$ and $S_2$ are closed, then\\
+	\begin{circuitikz}[scale=1.5]
+ \draw
+(0,2.5)  to[battery, V=E]  (0,5)
+  to[R=R] (2,5) -- (4,5) -- (4,6) to[R=3R] (5,6) to[switch=${\rm s_1}$] (6,6) -- (6,5) --(7,5) to[voltmeter, l=$V_2$] (7,2.5) -- (0,2.5)
+(4,5) -- (4,4) to[R=6R] (5,4) to[switch=${\rm s_2}$] (6,4) -- (6,5)
+
+(3,5) -- (3,3) -- (3.5,3) to[voltmeter, l= $V_1$] (4.5,3) -- (6.3,3) -- (6.3, 5) 
+;
+	\end{circuitikz}
+
+		a.) $V_3>V_2>V_1$ \hspace{5 cm} b.) $V_2>V_1>V_3$\\
+		c.) $V_3>V_1>V_2$ \hspace{5 cm} d.) $V_1>V_2>V_3$\\ 
+
+\end{enumerate}
+%-------------------------------------------------------------------------------------------------------------------------------
+\newpage
+\begin{center}
+\textbf{\large \underline{Biology}}\\
+\end{center}
+
+\begin{enumerate}
+\item \large Diffusion pressure is directly proportional to:\\
+
+		a.) concentration of molecules diffusing \\ b.) kinetic energy of diffusion molecules\\
+		c.) concentration gradient\\  d.) all of the above\\
+
+\item \large What happens when a formalin preserved filament of Spirogyra is placed in a hypertonic sugar solution?\\
+
+		a.) it losses turgidity \\ b.) it gains turgidity \\ c.) it is plasmolysed \\ d.) nothing happens\\
+
+\item \large Nif genes occur in\\
+
+		a.) rhizobiium \\ b.) Aspergillus \\ c.) Penicillium \\ d.) Steptococcus\\
+
+\item \large Gibberellin induces flowering in\\
+
+		a.) some plants only\\
+		b.) in long day plants under short day conditions\\
+		c.) in short day plants under long day conditions\\
+		d.) day neutral plants\\
+
+\item \large $\alpha - 1$ Antitrypsin is\\
+		a.) an antacid \\ b.) an enzyme \\ c.) used to treat arthritis \\ d.) used to treat emphysema
+
+\end{enumerate}
+\end{document}
